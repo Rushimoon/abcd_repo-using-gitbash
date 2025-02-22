@@ -1,0 +1,103 @@
+*{
+    font-family: "Open Sans";
+}
+#navbar{
+    /* border: 1px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logodiv{
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 15%;
+}
+#logoimg{
+    width: 100%;
+}
+#searchdiv{
+     /* border: 1px solid black; */
+     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     height: 40px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    /* padding: 0 10px; */
+    padding-left: 5px;
+}
+#sicon{
+    color: grey;
+}
+#inpbox{
+    width: 70%;
+    height: 70%;
+    border: none;
+    font-size: 15px;
+}
+#inpbtn{
+    height: 99%;
+    background-color: #03adf3;
+    color: white;
+    border: none;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#offerdiv{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 10%;
+}
+#offerimg{
+    width: 100%;
+}
+#icondiv{
+    /* border: 1px solid black; */
+    height: 60px;
+    width: 20%;
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.icon{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icoo{
+    color: #03adf3;
+    font-size: 20px;
+}
+.icpara{
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+#secnavbar{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    display: flex;
+    justify-content: space-evenly;
+
+ 
+    gap: 30px;
+    background-color: white;
+}
+.links{
+    text-decoration: none;
+    color: 
+    rgb(92, 92, 92);
+    font-size: 15px;
+    line-height:20px;
+    font-weight: 700;
+}
